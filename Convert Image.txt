@@ -1,0 +1,15 @@
+#Resize Image
+1. convert imagename.jpg -resize 800x600 newimagename.jpg
+
+#Convert From One Image Format To Another
+1.convert image.png image.gif
+2.convert image.jpg image.bmp
+3.convert image.gif image.tif
+
+#Adjust file size of an image
+1. convert imagename.jpg -quality 90 newimage.jpg
+
+#Rotate Images
+1. convert imagename.jpg -rotate 90 newimage.jpg
+2. convert imagename.jpg -rotate 45 newimage.jpg
+

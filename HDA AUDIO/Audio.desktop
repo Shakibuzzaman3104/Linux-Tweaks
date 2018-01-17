@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=Start/Stop Audio
+Name=Hda Audio
+Exec=gksudo python /opt/audio/run.py
+Icon[en_CA]=/opt/audio/settings.png
+Encoding=UTF-8
+Terminal=false
+Name[en_CA]=HDA AUDIO  
+Comment[en_CA]=Start/Stop XAMPP
+Type=Application
+Icon=/opt/audio/settings.ico

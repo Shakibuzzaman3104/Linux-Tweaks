@@ -1,0 +1,1 @@
+xdg-mime default caja.desktop inode/directory application/x-gnome-saved-search

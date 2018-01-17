@@ -1,0 +1,13 @@
+1. Install Youtube Downloader: sudo apt install youtube-dl
+
+2. Download a siangle Video: youtube-dl <URL>
+
+3. Download Multiple Videos:
+	
+	* Create a file named list
+	* Put the urls inside the list file
+	* Execute : youtube-dl -a list
+
+4. Download a playlist: Youtube-dl <PlayList URL>
+
+5. To Download highest quality Videos: youtube-dl --format 'bestvideo+bestvideo' 'https://www.youtube.com/watch?v=iNJdPyoqt8U'
