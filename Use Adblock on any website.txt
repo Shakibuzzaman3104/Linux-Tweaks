@@ -1,0 +1,13 @@
+1. First Install Greasemonkey for firefox/ Tampermonkey for Chrome.
+
+2. Install the following Script:
+   chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/ask.html?aid=291fdd5e-b3c9-473b-b22e-84c8b2d2f4c8 
+
+3. Kissanime Captcha Bypass:
+   chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/ask.html?aid=d0ffe48a-4a79-4b9c-9305-7b2bfca374b9
+
+4. Kissanime Ad Blocker:
+   chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/ask.html?aid=d05cacf3-d887-48c0-bc32-dba913d8d80f
+
+5. Popup Blocker:
+   chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/ask.html?aid=8812f4ed-5de4-4606-9a22-e5714011df38
