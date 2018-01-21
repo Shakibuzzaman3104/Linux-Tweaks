@@ -5,7 +5,7 @@ FILES=["hda_analyzer.py", "hda_guilib.py", "hda_codec.py", "hda_proc.py",
        "hda_graph.py", "hda_mixer.py"]
 
 try:
-  import gobject
+  from gi.repository import GObject
   import gtk
   import pango
 except:
