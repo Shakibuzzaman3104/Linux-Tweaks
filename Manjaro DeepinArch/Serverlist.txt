@@ -1,0 +1,42 @@
+##
+## Manjaro Linux default mirrorlist
+## Generated on 2018-03-24 09:09
+##
+## Please use 'pacman-mirrors -f [NUMBER] NUMBER' to modify mirrorlist
+## (Use 0 for all mirrors)
+##
+
+## Country : Bangladesh
+Server = http://mirror.xeonbd.com/manjaro/stable/$repo/$arch
+Server = http://mirror.xeonbd.com/manjaro/stable/
+Server = http://mirror.xeonbd.com/manjaro/stable/community/x86_64/
+
+## Country : Philippines
+Server = http://mirror.rise.ph/manjaro/stable/$repo/$arch
+
+## Country : Japan
+Server = http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/stable/$repo/$arch
+
+## Country : Germany
+Server = http://mirror.ragenetwork.de/manjaro/stable/$repo/$arch
+
+## Country : United_Kingdom
+Server = http://mirror.catn.com/pub/manjaro/stable/$repo/$arch
+
+## Country : Austria
+Server = http://mirror.inode.at/manjaro/stable/$repo/$arch
+
+## Country : Germany
+Server = https://mirror.philpot.de/manjaro/stable/$repo/$arch
+
+## Country : Bulgaria
+Server = http://manjaro.telecoms.bg/stable/$repo/$arch
+
+## Country : Portugal
+Server = http://manjaro.barata.pt/stable/$repo/$arch
+
+
+
+## Country : China
+Server = https://mirrors.ustc.edu.cn/manjaro/stable/$repo/$arch
+
