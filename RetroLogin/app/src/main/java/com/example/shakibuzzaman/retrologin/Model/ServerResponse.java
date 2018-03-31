@@ -1,4 +1,4 @@
-package com.example.shakibuzzaman.retrologin;
+package com.example.shakibuzzaman.retrologin.Model;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -11,7 +11,7 @@ public class ServerResponse {
     @SerializedName("message")
     String Message;
 
-    String getMessage()
+    public String getMessage()
     {
         return Message;
     }

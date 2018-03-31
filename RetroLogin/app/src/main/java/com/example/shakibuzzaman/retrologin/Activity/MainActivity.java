@@ -1,17 +1,18 @@
-package com.example.shakibuzzaman.retrologin;
+package com.example.shakibuzzaman.retrologin.Activity;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextUtils;
-import android.text.TextWatcher;
 import android.util.Log;
-import android.util.Patterns;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.shakibuzzaman.retrologin.Interface.ApiInterface;
+import com.example.shakibuzzaman.retrologin.R;
+import com.example.shakibuzzaman.retrologin.Retrofit.RetrofitApiClient;
+import com.example.shakibuzzaman.retrologin.Model.ServerResponse;
+import com.example.shakibuzzaman.retrologin.Model.User;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -46,17 +47,17 @@ public class MainActivity extends AppCompatActivity {
             email = u.getText().toString().trim();
             Password = p.getText().toString();
             User user = new User();
-            user.setPassword(Password);
+            user.setPass(Password);
             user.setEmail(email);
-           if(!isValidEmail(email))
-           {
-               Toast.makeText(getApplicationContext(), "Invalid Email Format", Toast.LENGTH_SHORT).show();
-           }
+            if(!isValidEmail(email))
+            {
+                Toast.makeText(getApplicationContext(), "Invalid Email Format", Toast.LENGTH_SHORT).show();
+            }
 
             else
-           {
-               checkUserValidity(user);
-           }
+            {
+                checkUserValidity(user);
+            }
 
 
         }
