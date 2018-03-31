@@ -1,7 +1,7 @@
 1. Install Xampp GUI: chmod +x xampp-linux-x64-5.6.30-0-installer.run
 					  sudo ./xampp-linux-x64-5.6.30-0-installer.run
 
-2. sudo gedit ~/.local/share/applications/xampp-control-panel.desktop
+2. sudo gedit /usr/share/applications/xampp-control-panel.desktop
 
 3. Copy/Paste the following code:
 

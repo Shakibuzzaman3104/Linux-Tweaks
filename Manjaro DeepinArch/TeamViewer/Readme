@@ -1,0 +1,5 @@
+1. install Teamviewer 13.
+2. install lib32-freetype2 from this directory
+3. restart deamon : sudo teamviewer --daemon enable
+4. start service : systemctl start teamviewerd.service
+5. Restart

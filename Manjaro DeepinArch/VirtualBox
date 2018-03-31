@@ -1,0 +1,3 @@
+1.sudo pacman -S linux414-vitualbox-host-modules
+
+2. vboxreload

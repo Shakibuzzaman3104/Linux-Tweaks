@@ -1,0 +1,7 @@
+1.mkdir build
+2.cd build
+3.wget link
+4.ls
+5.tar xvf filename.tar.gz
+6.cd directoryName
+7.makepkg -sri
